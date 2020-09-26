@@ -95,7 +95,22 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
-alias la='ls -a'
+alias laa='ls -a'
+
+alias gc='git clone'
+alias gis='git status'
+alias gl='git log'
+alias ga='git add'
+alias gaa='git add -A'
+alias gau='git add -u'
+alias gp='git push'
+alias gm='git commit -m'
+alias gt='git tag -a'
+alias gpt='git push --follow-tags'
+
+alias pyrun='python manage.py runserver'
+alias pymakem='python manage.py makemigrations'
+alias pymigrate='python manage.py migrate'
 
 xhost +local:root > /dev/null 2>&1
 

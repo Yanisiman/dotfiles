@@ -1,3 +1,11 @@
 [user]
 	email = yanis.chaabane@epita.fr
 	name = Yanis Chaabane
+[core]
+        whitespace = trailing-space, space-before-tab
+[rerere]
+        enabled=true
+[commit]
+        verbose=true
+[pull]
+	rebase = false

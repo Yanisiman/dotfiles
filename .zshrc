@@ -97,6 +97,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias pyrun='python manage.py runserver'
+alias pymakem='python manage.py makemigrations'
+alias pymigrate='python manage.py migrate'
+alias pyshell='python manage.py shell'
+
+
 prompt_context(){}
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
