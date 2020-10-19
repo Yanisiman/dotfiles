@@ -9,3 +9,11 @@
         verbose=true
 [pull]
 	rebase = false
+[color]
+	diff = auto
+	status = auto
+        branch = auto
+[color "status"]
+        changed = yellow
+        added = blue
+        untracked = red

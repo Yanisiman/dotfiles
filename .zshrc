@@ -97,12 +97,31 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Aliases for django commands
 alias pyrun='python manage.py runserver'
 alias pymakem='python manage.py makemigrations'
 alias pymigrate='python manage.py migrate'
 alias pyshell='python manage.py shell'
 
+# Alias for the criterion tests
+#alias mkt='gcc test.c -o test -lcriterion ; ./test'
+alias tmake='sh ~/scripts/maketest.sh'
+alias smake='sh ~/scripts/simple_make.sh'
+alias fmake='sh ~/scripts/makefile.sh'
+alias mclean='rm Makefile; rm -rf tests'
+alias debug='sh ~/scripts/debug_make.sh'
+
+alias p='cd ~/Bureau/EPITA/Ing/Piscine/yanis.chaabane-piscine-2023/'
+alias ing='cd ~/Bureau/EPITA/Ing/'
+
+alias gpt='git push --follow-tags'
+
+alias mc='make clean'
+alias mac='make -B all check'
 
 prompt_context(){}
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
