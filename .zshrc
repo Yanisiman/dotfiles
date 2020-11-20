@@ -120,6 +120,8 @@ alias gpt='git push --follow-tags'
 alias mc='make clean'
 alias mac='make -B all check'
 
+alias '42sh'='cd ~/Bureau/EPITA/Ing/Projets/42sh_backup/'
+
 prompt_context(){}
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

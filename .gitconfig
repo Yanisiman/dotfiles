@@ -3,12 +3,13 @@
 	name = Yanis Chaabane
 [core]
         whitespace = trailing-space, space-before-tab
+        pager = less -iXFR
 [rerere]
         enabled=true
 [commit]
         verbose=true
 [pull]
-	rebase = false
+	rebase = true
 [color]
 	diff = auto
 	status = auto
